@@ -1,0 +1,11 @@
+:root {
+  --color-bright-snow: #fafbf9;
+}
+
+.layout {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  background-color: var(--color-bright-snow);
+  height: 100vh;
+}
