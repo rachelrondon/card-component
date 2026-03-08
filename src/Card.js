@@ -24,7 +24,6 @@ const Card = () => {
   return (
     <div className="card" style={{ height: cardHeight}}>
       <div className="card-top"></div>
-      <hr />
       {showMore ? (
         <div className="card-bottom expanded">
           <ArrowUpCircleIcon className="icon" onClick={showMoreBtn} />
